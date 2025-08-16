@@ -1,17 +1,63 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="sr">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>koalicija381</title>
-    <meta name="description" content="Sajt je u izradi" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <main class="container">
-      <h1>Sajt je u izradi</h1>
-    </main>
-    <script src="script.js" defer></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Koalicija381</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="logo"><img src="assets/img/logo.svg" alt="Koalicija381 logo" style="height:80px; width: 80px;"></div>
+    <nav>
+      <a href="#naslovna">Naslovna</a>
+      <a href="#onama">O Nama</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+  </header>
+
+  <section id="naslovna" class="hero">
+    <h1>Dobro Došli</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+  </section>
+
+  <section id="onama" class="about">
+    <h2>O Nama</h2>
+    <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae. </p>
+  </section>
+
+  <section class="pdf-section">
+    <a href="assets/pdf/koalicioni-sporazum.pdf" download style="color:white; font-weight:bold;">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" class="bi bi-filetype-pdf" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M14 4.5V14a2 2 0 0 1-2 2h-1v-1h1a1 1 0 0 0 1-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5zM1.6 11.85H0v3.999h.791v-1.342h.803q.43 0 .732-.173.305-.175.463-.474a1.4 1.4 0 0 0 .161-.677q0-.375-.158-.677a1.2 1.2 0 0 0-.46-.477q-.3-.18-.732-.179m.545 1.333a.8.8 0 0 1-.085.38.57.57 0 0 1-.238.241.8.8 0 0 1-.375.082H.788V12.48h.66q.327 0 .512.181.185.183.185.522m1.217-1.333v3.999h1.46q.602 0 .998-.237a1.45 1.45 0 0 0 .595-.689q.196-.45.196-1.084 0-.63-.196-1.075a1.43 1.43 0 0 0-.589-.68q-.396-.234-1.005-.234zm.791.645h.563q.371 0 .609.152a.9.9 0 0 1 .354.454q.118.302.118.753a2.3 2.3 0 0 1-.068.592 1.1 1.1 0 0 1-.196.422.8.8 0 0 1-.334.252 1.3 1.3 0 0 1-.483.082h-.563zm3.743 1.763v1.591h-.79V11.85h2.548v.653H7.896v1.117h1.606v.638z"/>
+      </svg>
+      Preuzmite PDF verziju koalicionog sporazuma</a>
+  </section>
+
+  <section class="members">
+    <h2>Članovi Koalicije</h2>
+    <div class="member-grid">
+      <div><a href="stranka-crnogoraca.html"><img src="assets/img/crnogorci.svg" alt="Stranka Crnogoraca"><p>STRANKA CRNOGORACA</p></a></div>
+      <div><a href="bosnjacka-gradjanska-stranka.html"><img src="assets/img/bosnjaci.svg" alt="Bosnjacka Gradjanska Stranka"><p>BOŠNJAČKA GRAĐANSKA STRANKA</p></a></div>
+      <div><a href="gradjanski-savez-madjara.html"><img src="assets/img/madjari.svg" alt="Gradjanski Savez Madjara"><p>GRAĐANSKI SAVEZ MAĐARA</p></a></div>
+      <div><a href="demokratska-partija-makedonaca.html"><img src="assets/img/makedonci.svg" alt="Demokratska Partija Makedonaca"><p>DEMOKRATSKA PARTIJA MAKEDONACA</p></a></div>
+      <div><a href="vlaska-narodna-stranka.html"><img src="assets/img/vlasi.png" alt="Vlaska Narodna Stranka"><p>VLAŠKA NARODNA STRANKA</p></a></div>
+    </div>
+  </section>
+
+  <footer id="kontakt">
+    <div class="footer-contacts">
+      <div><strong>Stranka Crnogoraca</strong><br>kontakt@crnogorci.rs<br>Ulica 1, Grad</div>
+      <div><strong>Bošnjačka Građanska Stranka</strong><br>kontakt@bosnjaci.rs<br>Ulica 2, Grad</div>
+      <div><strong>Građanski Savez Mađara</strong><br>kontakt@madjari.rs<br>Ulica 3, Grad</div>
+      <div><strong>Demokratska Partija Makedonaca</strong><br>kontakt@makedonci.rs<br>Ulica 4, Grad</div>
+      <div><strong>Vlaška Narodna Stranka</strong><br>kontakt@vlasi.rs<br>Ulica 5, Grad</div>
+    </div>
+    <div class="footer-bottom">
+      2025 | Koalicija381© | sva prava zadržana
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
 </html>
