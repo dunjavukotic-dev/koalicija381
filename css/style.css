@@ -36,11 +36,24 @@ header nav a:hover {
 
 section {
   padding: 3rem 1.5rem;
+  scroll-margin-top: 30px;
+}
+
+.banner {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 550px;
+  background: url('../assets/img/baner.png') no-repeat center center;
+  background-color: #fafdf3;
 }
 
 .hero {
   background: #fafdf3;
   text-align: center;
+  margin-top: 0;
+  padding-top: 1.5rem;
 }
 
 .about {
